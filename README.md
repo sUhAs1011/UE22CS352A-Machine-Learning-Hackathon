@@ -35,3 +35,16 @@ Although the original problem statement involved multimodal fusion (video + text
 - Model Training – Uses a Random Forest Classifier to learn sentiment patterns.
 
 - Prediction – Classifies test audio clips and outputs results to audio_sentiment_predictions.csv.
+
+
+### 🛠️ Tech Stack
+
+Python
+
+Libraries:
+
+pandas, numpy → Data handling
+
+librosa → Audio feature extraction
+
+scikit-learn → ML pipeline (scaling, PCA, RandomForest)
